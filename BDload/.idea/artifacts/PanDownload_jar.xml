@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PanDownload:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PanDownload_jar</output-path>
+    <root id="archive" name="PanDownload.jar">
+      <element id="module-output" name="PanDownload" />
+    </root>
+  </artifact>
+</component>
