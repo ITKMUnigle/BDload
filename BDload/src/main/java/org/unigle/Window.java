@@ -91,7 +91,7 @@ public class Window extends JFrame{
         this.setLayout(null);
         this.setLocation(200,150);
         this.setVisible(true);
-        this.setTitle("文件列表  (Api接口由pojiewo提供解析)");
+        this.setTitle("文件列表  (Api接口由 **自己的解析地址** 提供解析)");
 
         //调用Baiduapi
         String recept_url=URL;

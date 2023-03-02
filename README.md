@@ -10,8 +10,4 @@
 
 # Thanks
 
-pojiewo提供的免费API接口
-
-# 联系
-
-qq:859950597
+免费API接口 <font color="#e74c3c">**(已经失效!!!)**</font>

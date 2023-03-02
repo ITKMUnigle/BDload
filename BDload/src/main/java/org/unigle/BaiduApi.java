@@ -10,19 +10,18 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class BaiduApi {
-//    在线API解析：http://www.pojiewo.com/baidu.php/?url=【网盘链接】&pwd=【提取码】
     public Map<Integer, String> BaiduApi(String URL, String PWD){
         String conurl=null;
         String Url = "url=";
         String Pwd = "&pwd=";
-        String pojiewo = "http://www.pojiewo.com/baidu.php/?";
+        String parseUrl = "解析地址";
 
         String inputLine = "";
         String read = "";
         try {
             Url=Url+URL;
             Pwd=Pwd+PWD;
-            URL url = new URL(pojiewo+Url+Pwd);
+            URL url = new URL(parseUrl+Url+Pwd);
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream(),"UTF-8"));
             while ((read = in.readLine()) != null) {
